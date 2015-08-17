@@ -2,13 +2,19 @@
 
 This code is meant to be installed and executed as a plugin for the popular toolbox for Microsoft Dynamics CRM, [XrmToolBox](http://www.xrmtoolbox.com/)
 
-![Deduplicator SnapShot](http://i.imgur.com/YwdTMcs.jpg)
+![Deduplicator SnapShot](http://i.imgur.com/6JDBaZM.jpg)
 
 #####Description
 
 This code was created by the need to have a CRM administrator manually intervene and perform a 1-time merge and delete of duplicated records in an organization.
 Using the full power and modularity of XrmToolBox, this sample has no custom code to connect to CRM environments or store credentials.
 It it focused on helping the administrator set up rules that would determine a set of records as duplicates, then allow the user to merge dependant 1:N records and purge all duplicates minus the selected surviving record.
+
+#####How To Install
+* Download [XrmToolBox](http://www.xrmtoolbox.com/)
+* Navigate to Releases and download https://github.com/philipstathis/Deduplicator_XrmToolBox_Plugin/releases/download/v1.0/Deduplicator.dll
+* Place Deduplicator.dll in the Plugins Directory
+* Launch XrmToolBox!
 
 #####How To Build and Run
 * Depending on your development machine setup you may need to install CRM 2015 SDK (Available from msdn: http://www.microsoft.com/en-us/download/details.aspx?id=44567)
